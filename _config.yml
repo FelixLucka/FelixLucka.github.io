@@ -1,0 +1,26 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Felix Lucka
+tagline:             academic website
+url:                 http://felixlucka.github.io
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+
+
+# About/contact
+author:
+  name:              Felix Lucka
+  email:             f.lucka@ucl.ac.uk
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/FelixLucka/FelixLucka.github.io

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+<div class="nav">
+    <div class="container">
+    <ul class="nav nav-pills pull-left">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Teaching</a></li>
+    </ul>
+    <ul class="nav nav-pills  pull-right">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="jumbotron">
+    <div class="container">
+    <h1>Felix Lucka</h1>
+    <p>welcome to my academic web site about applied mathematics</p>
+    </div>
+</div> 
+
+    <div class="container content">
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>
