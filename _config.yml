@@ -7,9 +7,9 @@ relative_permalinks: true
 # Setup
 title:               Felix Lucka
 tagline:             academic website
-url:                 http://felixlucka.github.io
+url:                 http://felixlucka.github.io/
 paginate:            1
-baseurl:             ""
+baseurl:             http://felixlucka.github.io/
 
 # Assets
 #
