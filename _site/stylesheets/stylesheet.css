@@ -2,17 +2,6 @@ a {
   color: rgb(0,0,153);
 }
 
-.nav li {
-  display: inline;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: rgb(153,0,0);
-}
-
-.nav li a{
-  color: rgb(153,0,0);
-}
-
 
 .jumbotron {
 /*  background-image:url("../images/BackgroundHome.jpg"); */
@@ -39,3 +28,18 @@ a {
   font-size: 24px;
   color: rgb(153,0,0);
 }
+
+
+.nav li {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: rgb(153,0,0);
+}
+
+.nav li a{
+  color: rgb(153,0,0);
+}
+
+
+.tab { margin-left: 40px; }
