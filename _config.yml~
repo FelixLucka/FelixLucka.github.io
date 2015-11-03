@@ -25,5 +25,3 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/FelixLucka/FelixLucka.github.io
-
-gems: [jekyll-paginate]
