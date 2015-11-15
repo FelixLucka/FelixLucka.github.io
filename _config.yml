@@ -26,4 +26,21 @@ version:             2.0.0
 github:
   repo:              https://github.com/FelixLucka/FelixLucka.github.io
 
+
+
+defaults:
+-
+  scope:
+    path: ""
+  values:
+    layout: "default"
+    author: "Felix Lucka"
+-
+  scope:
+    path: "research"
+  values:
+    layout: "defaultResearch" # overrides previous default layout
+    
+      
+
 gems: [jekyll-paginate]
