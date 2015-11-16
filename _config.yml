@@ -39,8 +39,17 @@ defaults:
   scope:
     path: "research"
   values:
-    layout: "defaultResearch" # overrides previous default layout
-    
+    layout: "defaultAlter1" # overrides previous default layout
+-
+  scope:
+    path: "teaching"
+  values:
+    layout: "defaultAlter2" # overrides previous default layout 
+-
+  scope:
+    path: "contact&about"
+  values:
+    layout: "defaultAlter2" # overrides previous default layout
       
 
 gems: [jekyll-paginate]
