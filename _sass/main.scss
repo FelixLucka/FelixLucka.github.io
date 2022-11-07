@@ -4,7 +4,7 @@ a {
 
 
 .jumbotron {
-  background-image:url("../images/backgroundMEG.png"); 
+  background-image:url("/assets/images/backgroundMEG.png");
   background-color: rgb(220,220,220);
   height: 280px;
 /*  background-repeat: no-repeat; */
@@ -17,7 +17,7 @@ a {
 }
 
 .jumbotron h1 {
-  color: rgb(70,122,0); 
+  color: rgb(70,122,0);
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-shadow: 1px 0px #fff, 0px 1px #fff, -1px 0px #fff, 0px -1px #fff;
