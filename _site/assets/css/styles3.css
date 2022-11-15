@@ -1,13 +1,6 @@
 a {
   color: #467a00; }
 
-.jumbotron {
-  background-image: url("/assets/images/backgroundMEG.png");
-  background-color: gainsboro;
-  height: 280px;
-  /*  background-repeat: no-repeat; */
-  /*  background-size: cover; */ }
-
 .jumbotron .container {
   position: relative;
   top: 90px; }
@@ -35,3 +28,10 @@ a {
 
 .tab {
   margin-left: 40px; }
+
+.jumbotron {
+  background-image: url("/assets/images/backgroundRadon.png");
+  background-color: gainsboro;
+  height: 280px;
+  /*  background-repeat: no-repeat; */
+  /*  background-size: cover; */ }

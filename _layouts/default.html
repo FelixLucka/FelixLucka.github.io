@@ -3,8 +3,14 @@
 
 <head>
   {% include defaultHead.html %}
+  {% if page.bgnimg == 2 %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles2.css">
+  {% elsif page.bgnimg == 3 %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles3.css">
+  {% else %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles1.css">
+  {% endif %}
 </head>
 
   {% include defaultBody.html %}
 </html>
-
